@@ -1,0 +1,285 @@
+/* Designed by Emin Özlem (tilqicom) http://www.tilqi.com/b2evo*/
+
+@import url("../../rsc/css/basic.css");	/* Import basic styles */
+@import url("../../rsc/css/img.css");	/* Import standard image styles */
+@import url("../../rsc/css/blog_elements.css");	/* Import standard blog elements styles */
+@import url("../../rsc/css/forms.css");	/* Import default form styles */
+@import url("../../rsc/css/comments.css");	/* Import default comment styles */
+
+/*
+================================ * Main contents:=================================
+ */
+body {
+font-family: "Arial", Verdana, Helvetica;
+font-size: 12px;
+color: #999999;
+background: url(img/film-bg.gif) repeat-y  #000000;
+}
+
+#header {
+background: #000000 url(img/head-bg.jpg) center no-repeat ;
+}
+
+#header ul li {
+list-style-type: none;
+text-align: right;
+}
+
+#header ul li a {
+color: #CFCFCF;
+text-align: right;
+}
+
+#page_wrapper {
+width: 950px;
+margin: 0 auto;
+}
+
+#footer {
+height: 80px;
+background: url(img/foot.gif) #000000 repeat-x;
+clear: both;
+margin: 0 auto;
+text-align: center;
+}
+
+#skin_wrapper a {
+
+color: #0099CC;
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px dashed #FF0000;
+}
+
+#skin_wrapper a:hover {
+
+color: #0099CC;
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px dashed #FF0000;
+border-top: 1px dashed #FF0000;
+
+}
+
+h1 {
+font-size: 24px;
+color: #FF0033;}
+
+h1 a {
+color: #FF0000;}
+
+h2 {
+font-size: 12px;
+color: #FF6600;
+}
+
+
+h2 a {
+font-size: 12px;
+color: #FF0000;
+}
+
+h3, h4, h5, h6 {
+
+}
+
+h3, h4, h5, h6 a {
+
+}
+
+/*
+================================ * ABOUT POSTS =================================
+ */
+.content_wrapper {/*this wraps 1 whole post*/
+
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 90%;
+	width: 750px;
+	padding: 1px;
+}
+
+#outside_wrapper {/* this wraps whole content area to float with sidebar*/
+padding-left: 15px;
+float: left;
+}
+
+.b2_post { /*post*/
+width: 100%;
+clear: both;
+}
+
+.post_content { /*post include*/
+padding-left: 10px;
+width: 540px;
+float: left;
+}
+
+/* clapper board properties*/
+
+.infoo { /* clapper board container*/
+position:relative;
+color: #CCCCCC;
+width: 200px;
+height:200px;
+background: url(img/post-bg.gif) no-repeat;
+font-family: "Lucida Handwriting", Arial, Verdana;
+font-size: 10px;
+float: left;
+}
+
+.infoo a {
+text-decoration: none;
+color: #FFFFFF;
+font-family: "Lucida Handwriting", Arial, Verdana;
+font-size: 10px;
+border: none;
+}
+
+.clapper_title {
+position:absolute;
+bottom:90px;
+left:40px;
+width:150px;
+overflow:hidden;
+}
+
+.cat_wrapper {
+height: 32px;
+}
+
+.maincat {
+width: 95px;
+overflow:hidden;
+position:absolute;
+bottom:60px;
+left:10px;
+}
+
+.subcat {
+padding-top: 12px;
+width: 85px;
+position:absolute;
+bottom:60px;
+left:110px;
+}
+
+.word_count {
+width: 100px;
+position:absolute;
+bottom:42px;
+left:24px;
+}
+
+.aut_hor {
+font-size: 9px;
+width: 80px;
+position:absolute;
+bottom:30px;
+left:42px;
+}
+
+
+.view_count {
+width: 65px;
+position:absolute;
+bottom:30px;
+left:130px;
+}
+
+.time_stamp {
+width: 185px;
+position:absolute;
+bottom:14px;
+left:10px;
+}
+
+.feed_back {
+border: none;
+position:absolute;
+bottom:4px;
+left:10px;
+}
+
+/* = =  = = = = = =  == = = == == = = SIDEBAR ============== */
+
+#sidebar {
+width: 180px;
+float: left;
+}
+
+#sidebar a {
+color: #FFFFFF;
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px dashed #FF0000;
+}
+
+#sidebar ul li {
+list-style-type: none;
+list-style-image: none;
+margin: 0;
+padding: 0;
+}
+
+#sidebar ul ul {
+list-style-type: none;
+list-style-image: none;
+margin: 0;
+padding-left: 5px;
+}
+
+#sidebar ul li ul li {
+list-style-type: none;
+list-style-image: none;
+margin: 0;
+padding: 0;
+}
+
+#sidebar ul li ul li ul li {
+list-style-type: square;
+list-style-image: none;
+margin: 0;
+padding: 0;
+}
+
+/*===================== MISC.. ============================*/
+
+.SearchField {
+background-color: #CCCCCC;
+color: #009900;
+width: 130px;
+}
+
+.widget_core_coll_title {
+text-align: center;
+color: #CCCCCC;
+}
+
+.widget_core_coll_title a{
+font-family: "Arial", Arial;
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+color: #000000;
+}
+
+.post_content h2 a {
+color: #fff;
+padding-left: 3px;
+border-left:  9px solid #993300;
+border-bottom: 1px solid #993300;
+}
+
+#pagelinks {
+clear:both;
+}
+
+#footer a {
+color: #006699;
+}
+
+#footer .validate a {
+border-bottom: #009900 1px dashed;
+border-top: #009900 1px dashed;
+color: #009900;
+}
