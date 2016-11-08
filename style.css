@@ -127,7 +127,7 @@ font-size: 10px;
 float: left;
 }
 
-.infoo a {
+#skin_wrapper .infoo a {
 text-decoration: none;
 color: #FFFFFF;
 font-family: "Lucida Handwriting", Arial, Verdana;
@@ -250,7 +250,7 @@ color: #009900;
 width: 130px;
 }
 
-.widget_core_coll_title {
+#skin_wrapper .widget_core_coll_title a {
 text-align: center;
 color: #CCCCCC;
 }
@@ -263,7 +263,7 @@ text-align: center;
 color: #000000;
 }
 
-.post_content h2 a {
+#skin_wrapper .post_content h2 a {
 color: #fff;
 padding-left: 3px;
 border-left:  9px solid #993300;

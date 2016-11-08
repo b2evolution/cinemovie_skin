@@ -4,6 +4,13 @@ Link to skin: http://skins.b2evolution.net/cinemovie-skin
 
 <img src="skinshot.png"/>
 
+### Update Log
+
+#### v1.1.1
+
+- Small visual fixes
+- New skinshot
+
 #### v1.1.
 
 - Sitewide_header included for easier multi-blogging experience
